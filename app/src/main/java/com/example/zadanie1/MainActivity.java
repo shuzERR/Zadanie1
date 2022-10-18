@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setNextQuestion(){
-        questionTextView.setText(""+questions[currentIndex].getQuestionId());
+        questionTextView.setText(questions[currentIndex].getQuestionId());
     }
 
     private void checkAnswer(boolean userAnswer){
